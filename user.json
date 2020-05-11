@@ -1,0 +1,14 @@
+{
+    "user" : [
+                {
+                    "username": "asdfasdf",
+                    "email" : "sadfadf@github.com",
+                    "attend" : true
+                }, 
+                {
+                    "username": "asd",
+                    "email" : "ff@github.com",
+                    "attend" : false
+                }
+            ]
+}

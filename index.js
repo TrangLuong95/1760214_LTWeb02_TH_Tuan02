@@ -17,7 +17,9 @@ app.engine('hbs', exphbs({
 
 app.set('view engine', 'hbs');
 
-app.use('/index.html', Home);
+app.use(express.urlencoded({ extended: true }))
+
+app.use('/', Home);
 app.use('/reg.html', Register);
 app.use('/admin', Admin);
 app.use('/config', Config);
